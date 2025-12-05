@@ -1,0 +1,219 @@
+/* Fondo general */
+.dashboard-wrapper {
+  min-height: 100vh;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  color: #fff;
+}
+
+/* Tarjeta central */
+.dashboard-card {
+  width: 80%;
+  max-width: 1000px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 14px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+.dashboard-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* Acciones */
+.dashboard-actions {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* Botones */
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.logout {
+  background: #ef4444;
+}
+.logout:hover {
+  background: #dc2626;
+}
+
+.create {
+  background: #6366f1;
+}
+.create:hover {
+  background: #4f46e5;
+}
+
+.roles {
+  background: #14b8a6;
+}
+.roles:hover {
+  background: #0d9488;
+}
+
+/* Tabla */
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.dashboard-table th {
+  text-align: left;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.dashboard-table td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Fila vacía */
+.empty-msg {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+/* Botón pequeño */
+.btn.small {
+  padding: 6px 10px;
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.edit {
+  background: #3b82f6;
+}
+.edit:hover {
+  background: #2563eb;
+}
+
+.delete {
+  background: #f43f5e;
+}
+.delete:hover {
+  background: #e11d48;
+}
+.layout {
+  display: flex;
+  height: 100vh;
+  background: #0f1626;
+  color: white;
+}
+
+.sidebar {
+  width: 260px;
+  background: #111a2b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #6d8cff;
+}
+
+.menu-item {
+  display: block;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #1c2942;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.menu-item:hover {
+  background: #6d8cff;
+}
+
+.logout-btn {
+  background: #e74c3c;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+}
+
+.main-title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.section-title {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #aab8d3;
+}
+
+.empty-text {
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.courses-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background: #1b2436;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.course-card h2 {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #6d8cff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: #869cff;
+}

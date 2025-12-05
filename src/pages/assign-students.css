@@ -1,0 +1,53 @@
+.assign-container {
+  padding: 40px;
+  color: white;
+}
+
+.assign-box {
+  background: #1e2537;
+  padding: 25px;
+  border-radius: 15px;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.assign-box select, .assign-box button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.assign-box button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #6370f4;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.table-box {
+  background: #1e2537;
+  padding: 20px;
+  border-radius: 15px;
+  width: 70%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+}
+
+.remove-btn {
+  padding: 6px 12px;
+  background: #ff4d4d;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}

@@ -1,0 +1,272 @@
+.teacher-course-page {
+  min-height: 100vh;
+  background: radial-gradient(circle at 10% 20%, #243b55 0%, #141824 35%, #0b1220 100%);
+  color: #e5e7eb;
+  padding: 32px 40px 60px;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.eyebrow {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8da2ff;
+  font-size: 12px;
+  margin: 0 0 6px;
+}
+
+.course-header h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #f8fafc;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: #cbd5e1;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.05);
+  color: #e5e7eb;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn.ghost {
+  border-color: #2f3c54;
+}
+
+.btn.primary {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+}
+
+.card-panel,
+.list-section {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
+  margin-bottom: 16px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #f1f5f9;
+}
+
+.badge {
+  background: #6366f1;
+  color: #fff;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.form-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-grid.column {
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.06);
+  color: #e5e7eb;
+  padding: 12px 14px;
+  font-size: 15px;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.double {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 14px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
+  color: #cbd5e1;
+}
+
+.list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.list-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list-card.row {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-title {
+  margin: 0;
+  font-weight: 700;
+  color: #fff;
+}
+
+.body-text {
+  margin: 0;
+  color: #dce2ec;
+}
+
+.muted {
+  color: #94a3b8;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 32px 12px;
+  color: #94a3b8;
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+}
+
+.chip {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(99, 102, 241, 0.08);
+  color: #e0e7ff;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+}
+
+.chip:hover {
+  border-color: #6366f1;
+  background: rgba(99, 102, 241, 0.18);
+  transform: translateY(-1px);
+}
+
+.chip.ghost {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.chip.active {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: #fff;
+}
+
+.chip.danger {
+  background: rgba(239, 68, 68, 0.12);
+  border-color: rgba(239, 68, 68, 0.4);
+  color: #fecdd3;
+}
+
+.chip.link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-chips {
+  display: flex;
+  gap: 8px;
+}
+
+.card-surface {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.helper {
+  margin-top: 6px;
+}
+
+.delivery-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .teacher-course-page {
+    padding: 24px 18px 40px;
+  }
+
+  .course-header {
+    flex-direction: column;
+  }
+
+  .form-grid {
+    flex-direction: column;
+  }
+
+  .double {
+    grid-template-columns: 1fr;
+  }
+
+  .list-card.row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

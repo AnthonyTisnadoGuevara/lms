@@ -1,0 +1,28 @@
+.roles-card {
+  padding: 25px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.08);
+  max-width: 900px;
+  margin: auto;
+}
+
+.roles-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.roles-table th,
+.roles-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.roles-select {
+  padding: 6px;
+  background: #1e293b;
+  color: white;
+  border-radius: 6px;
+}

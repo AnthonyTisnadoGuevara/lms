@@ -1,0 +1,83 @@
+.course-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.course-card {
+  width: 600px;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.course-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Inputs */
+.course-input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+  background: #0f172a;
+  color: white;
+  font-size: 14px;
+}
+
+.course-input:focus {
+  border-color: #6366f1;
+  outline: none;
+}
+
+/* Select */
+.course-select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background: #0f172a;
+  color: white;
+  margin-bottom: 18px;
+  border: 1px solid #1e293b;
+}
+
+.course-select:hover {
+  border-color: #6366f1;
+}
+
+/* Labels */
+.course-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Button */
+.course-btn {
+  width: 100%;
+  padding: 12px;
+  background: #6366f1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.course-btn:hover {
+  background: #4f46e5;
+}
